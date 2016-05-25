@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Smash Faces</title>
+	  <link rel="stylesheet" href="css/main.css">
+	  <link rel="stylesheet" href="css/bootstrap.min.css">
+	  <link rel="stylesheet" href="/resources/demos/style.css">
+	  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	</head>
+	<body>
+	<div class="container">
+		<div class="row">
+			<div class= "col-xs-12 col-lg-12">
+				<div id="contenedorJuego">
+					<h1><b>SMASH FACES</b></h1>
+		            		<p>Este es el juego de smash faces, tu mision es identificar a todas tus compañeras de clase ingresando para ellas su nombre.Tienes solo 5 oportunidades en todo el juego.Suerte!!!</p>
+		            	
+		        <div class="row">
+		        	<div class="col-lg-6 col-xs-12">
+		            	<div class="demo">
+
+ 		            		<form action="#">
+ 		            			<fieldset>
+		                			<label for="speed">Selecciona tu sede</label>
+		    		            	<select name="speed" id="speed">
+		    		            	  <option>Perú</option>
+		    		            	  <option selected="selected">México</option>
+		    		            	  <option>Lima</option>
+		    		            	</select>
+		    		            </fieldset>
+		 		            </form>
+ 						</div>
+ 					</div>
+ 					<div class="col-lg-6 col-xs-12">
+ 						<div class="alert alert-warning alert-dismissible" role="alert">
+  							<button type="button" class="close" data-dismiss="alert" aria-label="close"></button>
+  							<strong>Recuerda!</strong> Escribir la primer letra del nombre con mayúscula.
+							</div>
+						<div class="puntaje">
+							<span id="spanPuntos">0 </span>Puntos </div>
+					</div>
+				</div>
+					<div class="row">
+						<div class="col-xs-12 col-lg-12">
+							<img id="imagenPersona" src="fotos/Patricia.jpg">
+							<input type="text" id="inputNombre" placeholder=" Introduce el Nombre">
+							<button id="btnRevisar" type="button">Revisar</button>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+		<script type = "text/javascript" src="js/jquery.min.js"></script>
+		<script type = "text/javascript" src="js/main.js"></script>
+		
+	</body>
+</html>
